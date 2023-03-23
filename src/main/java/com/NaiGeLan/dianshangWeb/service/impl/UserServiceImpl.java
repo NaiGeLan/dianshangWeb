@@ -5,9 +5,11 @@ import com.NaiGeLan.dianshangWeb.dataObj.UserDO;
 import com.NaiGeLan.dianshangWeb.model.Result;
 import com.NaiGeLan.dianshangWeb.service.UserService;
 // import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@Service()
 public class UserServiceImpl implements UserService {
 
     @Autowired
